@@ -1,0 +1,141 @@
+body {
+	background-color: black;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body { overflow-x: hidden;
+       overflow-y: hidden;}
+
+
+body::before{
+    content: "";
+background-image: url(../src/imagens/backgroud.jfif);
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: -1;
+opacity: 0.3;
+
+
+
+
+}
+
+
+.cabecalho {
+top: 50%;
+left: 50%;
+transform: translate(46%, 20%);
+
+}
+
+.bosses{
+top: 50%;
+left: 50%;
+transform: translate(0%, -20%);
+}
+
+
+.bosses .titulo {
+   
+   top: 50%;
+    left: 50%;
+    transform: translate(16%, 900%);
+}
+ 
+
+
+.bosses .lista-de-bosses{
+    top: 50%;
+    left:50%;
+    transform: translate(30%, 100%);
+max-width: 500px;
+max-height: 500px;
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+
+
+}
+
+
+.bosses .lista-de-bosses .boss.selecionado{
+    box-shadow: 0px 0px 24px 5px #500101;
+    width:150px;
+    height: 120px;
+}
+
+
+.bosses .boss img{
+width:150px;
+height: 120px;
+
+}
+
+
+.boss-selecionado{
+    gap: 30px;
+top: 50%;
+left: 50%;
+transform: translate(55%, -40%);
+}
+
+
+.boss-selecionado .informacoes-boss{
+    
+top: 50%;
+left: 50%;
+transform: translate(14%, 0%);
+}
+
+
+.boss-selecionado .descricao-boss {
+max-width: 380px;
+    gap: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%, 5%);
+
+
+}
+
+.boss-selecionado .informacoes-boss .nome-boss{
+   
+
+}
+
+.boss-selecionado .boss-grande{
+height: 300px;
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
